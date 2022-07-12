@@ -182,6 +182,66 @@ nav a:visited, nav a:link {
     }
 }
 
+@media screen and (max-width: 900px){
+    #homeNav {
+        font-size: 16px;
+        margin-right: 0;
+        display: inline-block;
+    }
+    
+    #storyNav {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    #eduNav {
+        font-size: 16px;
+        margin-right: 0;
+    }
+    #workNav {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    #contactNav {
+        font-size: 16px;
+        margin-right: 20em;
+        margin-top: .04em;
+        float: left;
+    }
+
+    #opening {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 5em;
+    }
+
+    #story {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #edu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #work {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #contact {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #location {
+        margin-top: 1.2em;
+        float: left;
+    }
+}
+
 
 /*-------------OLD CSS--------------
 
