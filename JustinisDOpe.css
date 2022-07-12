@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-image: url("background1.jpg");
+    background-image: url("background1.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 1em;
+    color: white;
+}
+
+a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+nav a:visited, nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+    background: rgba(192, 192, 192, .7);   
+    border-style: unset; 
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+}
+
+#heading {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#head {
+    font-size: 40px;
+    font-weight: bolder;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#homeNav {
+    font-size: 20px;
+    margin-right: 51em;
+}
+
+#storyNav {
+    font-size: 20px;
+    margin-right: 52em;
+}
+
+#eduNav {
+    font-size: 20px;
+    margin-right: 52em;
+}
+
+#workNav {
+    font-size: 20px;
+    margin-right: 56em;
+}
+
+#contactNav {
+    float: left;
+    font-size: 20px;
+    margin-top: .04em;
+    margin-right: 50em;
+}
+
+#opening {
+    font-size: 25px;
+    margin-top: 8em;
+    margin-left: 5em;
+    margin-right: 15em;
+    padding: 5px;    
+}
+
+#story {
+    font-size: 25px;
+    margin-top: 2em;
+    padding: 15px;
+}
+
+#edu {
+    font-size: 25px;
+    margin-top: 3em;
+    margin-left: 6em;
+    margin-right: 28em;
+}
+
+#work {
+    font-size: 25px;
+    margin-top: 8em;
+    margin-right: 23em;
+    margin-left: 6em;
+}
+
+#location {
+    font-size: 20px;
+    float: left;  
+    margin-top: 1.2em;
+    margin-left: .5em;
+}
+
+#contact {
+    font-size: 25px;
+    float: left;
+    margin-left: 5em;
+    margin-top: 6em;
+}
+
+#edu > ul > li {
+    padding: 10px;
+}
+
+#edu > ul > #pluralsight > ul > li {
+    padding: 10px;
+}
+
+#work > ul > li {
+    padding: 10px;
+}
+
+@media screen and (max-width: 414px) {
+    #homeNav {
+        font-size: 16px;
+        margin-right: 0;
+    }
+    
+    #storyNav {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    #eduNav {
+        font-size: 16px;
+        margin-right: 0;
+    }
+    #workNav {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    #contactNav {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    #opening {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 5em;
+    }
+
+    #story {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #edu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #work {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #contact {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #location {
+        margin-top: 0;
+    }
+}
+
+
+/*-------------OLD CSS--------------
+
+
+html {
+    margin: 0;
+    background-image: url("background1.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: lightgray;
+    z-index: 0;
+}  
+#head {
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    float: left;
+    border-right: 0px;
+    
+}
+
+#heading {
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    
+}
+
+#opening {
+    color: white;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 430px;
+    font-weight: 500;
+    padding: 0;
+    opacity: 1;
+    text-align: center;
+}
+
+#story {
+    color: white;
+    font-size: 27px;
+    font-weight: 300px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    opacity: 1;
+}
+
+#location {
+    color: white;
+    font-size: 20px;
+    font-weight: 200px;
+    margin-left: 15px;
+    margin-top: 38px;
+    float: left;
+    opacity: 1;
+}
+
+#contact {
+    color: white;
+    font-size: 30px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 500px;
+    opacity: 1;
+}
+
+#edu {
+    color: white;
+    border-color: dimgrey;
+    margin-top: 110px;
+    margin-left: 165px;
+    font-size: 15px;
+    margin-right: 750px;
+    opacity: 1;
+}
+
+#work {
+    color: white;
+    border-color: dimgrey;
+    margin-top: 120px;
+    margin-left: 165px;
+    font-size: 15px;
+    border-radius: 5px; 
+    margin-right: 800px;
+    opacity: 1;
+}
+
+a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+nav a:visited, nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#workNav {
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 1110px;
+    margin-top: 10px;
+    border-style: unset;
+    border-color: white;
+    opacity: 1;
+}
+
+#homeNav {
+    margin-left: 20px;
+    margin-right: 1020px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-style: unset;
+    border-color: white;
+    opacity: 1;
+}
+
+#storyNav {
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 1045px;
+    margin-top: 10px;
+    border-style: unset;
+    border-color: white;
+    opacity: 1;
+}
+
+#eduNav {
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 1055px;
+    margin-top: 10px;
+    border-style: unset;
+    border-color: white;
+    opacity: 1
+}
+
+#contactNav {
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 1065px;
+    margin-top: 10px;
+    margin-top: 15px;
+    border-style: unset;
+    border-color: white;
+    float:left;
+    opacity: 1;
+}
+
+.box {
+    background: rgba(192, 192, 192, .7);
+    z-index: 5;   
+    border-style: unset; 
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    display: block;
+}
+
+#edu > ul {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+#edu > ul > li {
+    padding: 5px;
+}
+
+#work > ul {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+#work > ul > li {
+    padding: 5px;
+}
+
+*/
