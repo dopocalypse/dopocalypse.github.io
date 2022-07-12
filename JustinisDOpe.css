@@ -143,26 +143,26 @@ nav a:visited, nav a:link {
 @media screen and (max-width: 414px) {
     #homeNav {
         margin-right: 7em;
-        display: block;
+        display: inline-block;
     }
     
     #storyNav {
         margin-right: 8em;
-        display: block;
+        display: inline-block;
     }
 
     #eduNav {
         margin-right: 8em;
-        display: block;
+        display: inline-block;
     }
     #workNav {
         margin-right: 11em;
-        display: block;
+        display: inline-block;
     }
 
     #contactNav {
         margin-right: 0;
-        display: block;
+        display: inline-block;
     }
 
     #opening {
