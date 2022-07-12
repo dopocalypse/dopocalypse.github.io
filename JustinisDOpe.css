@@ -140,7 +140,7 @@ nav a:visited, nav a:link {
     padding: 10px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 414px) {
     #homeNav {
         margin-right: 7em;
         display: block;
