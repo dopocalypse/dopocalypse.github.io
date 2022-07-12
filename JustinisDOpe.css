@@ -127,26 +127,26 @@ nav a:visited, nav a:link {
 
 @media screen and (max-width: 414px) {
     #homeNav {
-        font-size: 16px;
+        font-size: 14px;
         margin-right: 0;
     }
     
     #storyNav {
-        font-size: 16px;
+        font-size: 14px;
         margin-right: 0;
     }
 
     #eduNav {
-        font-size: 16px;
+        font-size: 14px;
         margin-right: 0;
     }
     #workNav {
-        font-size: 16px;
+        font-size: 14px;
         margin-right: 0;
     }
 
     #contactNav {
-        font-size: 16px;
+        font-size: 14px;
         margin-right: 0;
     }
 
@@ -169,6 +169,7 @@ nav a:visited, nav a:link {
     #work {
         margin-left: 0;
         margin-right: 0;
+        margin-top: 5em;
     }
 
     #contact {
